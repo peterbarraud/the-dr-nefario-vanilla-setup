@@ -1,0 +1,62 @@
+@use "colors" as *;
+
+.form-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  .form-button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  primary-button{
+    @extend .form-button;
+    background-color: $primary-color;
+    &:hover{
+      background-color: $primary-color-hover;
+    }
+  }
+
+  success-button{
+    @extend .form-button;
+    background-color: $success-color;
+    &:hover{
+      background-color: $success-color-hover;  
+    }
+  }
+
+  danger-button{
+    @extend .form-button;
+    background-color: $danger-color;
+    &:hover{
+      background-color: $danger-color-hover;  
+    }
+  }
+  secondary-button{
+    @extend .form-button;
+    background-color: $secondary-color;
+    &:hover{
+      background-color: $secondary-color-hover;  
+    }
+  }
+  
+
+  .disabled-button {
+    opacity: 1;
+    cursor: not-allowed;
+  }

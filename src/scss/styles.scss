@@ -1,0 +1,36 @@
+@use 'forms';
+
+
+
+.hidesection {
+    display: none;
+}
+
+.showsection {
+    display: block;
+}
+
+page-center {
+    max-width: 400px;
+    max-height: 220px;
+    position: absolute;
+    top:0; right:0; bottom:0; left: 0;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid;
+    padding: 10px;
+    // margin: 2px;
+    border-radius: 5px;
+}
+
+info-box {
+    @extend .card;
+    margin: 2px;
+    display: inline-block;
+}
+
+
+
+

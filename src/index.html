@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Dr. Nefario Setup</title>
+  </head>
+  <body>
+    <page-center class="card" id="sign-in">
+      <form>
+        <input type="text" class="form-input" placeholder="User name" aria-label="User name" id="user-name">
+        <input type="password" class="form-input" id="password" placeholder="Password" aria-describedby="passwordHelpBlock">  
+      </form>
+      <success-button class="color-primary" id="login">Login</success-button>
+      <primary-button id="add-user">Add user</primary-button>
+      <danger-button id="get-user">Get user by id</danger-button>
+      <secondary-button id="get-users">Get users</secondary-button>
+      <info-box id="responses">
+        You'll get responses here
+      </info-box>          
+
+    </page-center>
+      <div id="logged-in-user-section" class="hidesection">
+        <div class="center">
+          <div id="logged-in-user-response">
+            You'll get responses here
+          </div>        
+        </div> 
+      </div>
+   
+
+  </body>
+</html>
