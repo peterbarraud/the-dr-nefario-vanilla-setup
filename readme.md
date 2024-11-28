@@ -1,6 +1,8 @@
 # The Dr. Nefario Vanilla setup
 (Why?. Because I love that scene in `Despicable me` where `Dr. Nefario` packs all his stuff in one little suitcase and leaves)
 
+(No Bootstrap - just plain ol JS and CSS (or SASS))
+
 (Preferably run the steps 1 to 3 in `Git bash`)
 1. Clone this repo
 1. cd into the resultant folder
